@@ -98,20 +98,20 @@ box-sizing: border-box;
 }
 body{
 
-  width:100%;
+  max-width:100%;
   height: auto;
   margin:auto;   
 }
 
 .container-fluid{
-  width:100%;
+  max-width:100%;
   min-height:750px;
   
 }
 .jumbotron
 {
 
-  width:100%;
+  max-width:100%;
   min-height:1000px;
   margin-top: 0;
   margin-bottom: 10px;
@@ -172,7 +172,6 @@ position:absolute;
 {
   background-image: url(../img/eco.jpg);
   background-attachment: fixed;
-  /*background-position: center;*/
   background-repeat: no-repeat;
   background-size: cover;
   
@@ -203,7 +202,7 @@ position:absolute;
 .three
 {
   background-color: rgb(255, 230, 230);
-    width:75%;
+    max-width:75%;
 
 }
 #about strong 
@@ -233,7 +232,7 @@ position:absolute;
 }
 .recent
 {
-  width:55%;
+  max-width:55%;
 }
 
 .sectSix
@@ -259,7 +258,7 @@ position:absolute;
 .sectFive .content1
 {
     /*float:right;*/
-    width: 45%;
+    max-width: 45%;
     text-align: center;
     padding-top: 5em;
     padding-bottom: 5em;
@@ -275,7 +274,7 @@ position:absolute;
 }
 .sectFive img
 {
-  width:35%;
+  max-width:35%;
   height:25%;
   float: left;
   border-radius: 5px;
@@ -283,7 +282,7 @@ position:absolute;
 .sectFive .content2
 {
     /*float:left;*/
-    width: 35%;
+    max-width: 35%;
     text-align: center;
     padding-top:5em;
     padding-bottom:5em;
@@ -310,7 +309,7 @@ position:absolute;
 {
   
   color: black;
-  width:50%;
+  max-width:50%;
   padding: .5em;
 }
 .contact-details strong
@@ -336,26 +335,15 @@ position:absolute;
 #skillSet article.skill {
     display: inline;
     float: left;
-    width: 45.67%;
+    max-width: 45.67%;
     max-height: 25%;
     margin: 5em 1.04167%;
     text-align: center;
     padding-top:.5em;
-    /*padding-bottom: 5em;
-    overflow: hidden;*/
     color:black;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     font-size: large;
-    /*background-image: url(../img/metal_grill.jpg);
-    border: 3px solid cornsilk;
-    border-top-left-radius: 10em;
-    border-top-right-radius: 10em;
-    line-height: 2;
-  /*transform: rotate(20deg);
-  
-    /*background-repeat: no-repeat!important;
-    background-size: auto 130px!important;
-    background-position: center top!important;*/
+
 }
 .pic
 {
@@ -368,8 +356,7 @@ position:absolute;
   background-color:floralwhite;
   padding: .5em 2em .5em 2em; 
   margin-left: 35%;
- 
-  border:2px solid black;
+   border:2px solid black;
   border-radius: 10px;
   transform: rotate(20deg);
   
@@ -391,7 +378,7 @@ position:absolute;
 }
 .box2 img
 {
-  width: 35%;
+  max-width: 35%;
   height:35%;
   
 }
@@ -451,14 +438,14 @@ p::first-letter {
     border-color: transparent;
     color: #fff !important;
 }
-  .what{
+  .whatIDo{
     background-image:url(../img/metal_grill.jpg);
     padding:1em;
-    width:25%;
+    max-width:25%;
     letter-spacing: 3px;
     color:ghostwhite;
     font-weight: 400;
-     border: 3px solid cornsilk;
+    border: 10px outset cornsilk;
     border
   
   }
