@@ -195,16 +195,27 @@ position:absolute;
   background-attachment: fixed;
   background-size: cover;
   min-height: 700px;
-    opacity: .75;
 
-  
 }
+.littleAboutMe
+{
+  color:black;
+  background-color: rgb(255, 230, 230);
+  max-width:25%;
+  z-index: -5;
+  opacity: .75;
+}
+
+
 .three
 {
   background-color: rgb(255, 230, 230);
-    max-width:75%;
-
+  max-width:75%;
+  z-index: -5;
+  opacity: .75;
+  font-weight: 700;
 }
+
 #about strong 
 {
   color: black;
@@ -311,20 +322,26 @@ position:absolute;
   color: black;
   max-width:50%;
   padding: .5em;
+  font-family: sans-serif;
 }
 .contact-details strong
 {
   color: black;
+  
+ 
+  
 }
 
 .contact-details
 {
-  letter-spacing: 2px;
-    font-weight: 400;
-     padding-top: 1em;
-    padding-bottom: 5em;
-    line-height: 2;
-    margin-top: 2em;
+  letter-spacing: 1.5px;
+  font-weight: 800;
+  padding-top: 1em;
+  padding-bottom: 5em;
+  line-height: 2;
+  margin-top: 2em;
+  text-align: center;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     }
 
 .contact-details a
@@ -424,21 +441,25 @@ p::first-letter {
     padding: 0;
 }
  
-.navbar li a, .navbar .navbar-brand {
+.navbar li a, .navbar .navbar-brand 
+{
     color: black!important;
  
 }
 
-.navbar-nav li a:hover, .navbar-nav li.active a {
+.navbar-nav li a:hover, .navbar-nav li.active a
+{
     color: white !important;
     background-color: red!important;
 }
 
-.navbar-default .navbar-toggle {
+.navbar-default .navbar-toggle 
+{
     border-color: transparent;
     color: #fff !important;
 }
-  .whatIDo{
+  .whatIDo
+{
     background-image:url(../img/metal_grill.jpg);
     padding:1em;
     max-width:25%;
@@ -446,9 +467,19 @@ p::first-letter {
     color:ghostwhite;
     font-weight: 400;
     border: 10px outset cornsilk;
-    border
-  
-  }
+   
+ }
+/*.littleAboutMe
+{
+    background-image:url(../img/metal_grill.jpg);
+    padding:1em;
+    max-width:35%;
+    letter-spacing: 3px;
+    color:ghostwhite;
+    font-weight: 400;
+    border: 10px outset cornsilk;
+
+ }
 /*
 .frameworks
 {
